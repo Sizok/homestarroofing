@@ -62,7 +62,8 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 2.5em;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-top: 100px; }
   #about-section .container p {
     color: #ffffff;
     text-align: center;
