@@ -24,6 +24,9 @@ nav {
       text-decoration: none;
       color: #000;
       font-weight: 400; }
+    .navbar li a:hover {
+      color: #A2CEF2;
+      cursor: default; }
 
 .menu {
   height: 70px;
@@ -45,7 +48,7 @@ nav {
     margin: 12px;
     font-weight: 600; }
 
-.hero-banner {
+#hero-banner {
   height: 678px;
   background-image: url("../img/header-bcg.png");
   background-size: cover;
