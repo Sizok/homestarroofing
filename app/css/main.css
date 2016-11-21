@@ -1,5 +1,6 @@
 html {
-  font: 14px Roboto; }
+  font: 14px Roboto;
+  background-color: #ffffff; }
 
 nav {
   z-index: 1000;
@@ -37,7 +38,7 @@ nav {
   overflow: hidden;
   width: 162px;
   height: 63px;
-  margin: 0; }
+  margin: 0 0 10px 0; }
 
 .navbar-phone-number {
   height: 70px;

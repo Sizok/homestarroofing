@@ -1,7 +1,8 @@
 .container {
   width: 980px;
   margin: 0 auto;
-  height: 100%; }
+  height: 100%;
+  opacity: 1; }
 
 #our-services {
   height: 600px;
@@ -11,9 +12,8 @@
   #our-services .slice {
     height: 100%;
     width: 100%;
-    background-color: #2f363d;
-    overflow: hidden;
-    opacity: 0.9; }
+    background-color: rgba(47, 54, 61, 0.9);
+    overflow: hidden; }
     #our-services .slice .container h2 {
       text-transform: uppercase;
       color: #A2CEF2;
@@ -70,3 +70,50 @@
     font-size: 1.5em;
     line-height: 2em;
     font-style: italic; }
+
+#say-about {
+  height: 500px;
+  width: 100%;
+  overflow: hidden; }
+  #say-about .container h2 {
+    color: #A2CEF2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 50px; }
+
+.rslides li div {
+  width: 40%;
+  height: 250px;
+  margin: 0 5%; }
+  .rslides li div p:first-child {
+    text-align: center;
+    font-style: italic;
+    line-height: 2em; }
+  .rslides li div p:last-child {
+    text-align: right; }
+
+.about-say-logo {
+  display: inline-block; }
+
+.a-s-logos {
+  width: 380px;
+  margin: 20px auto 0; }
+
+#a-s-logo-2 {
+  margin-left: 10px; }
+
+footer {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/footer-bcg.png); }
+  footer .slice {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(47, 54, 61, 0.9);
+    overflow: hidden; }
+  footer .footer-logo {
+    height: 145px;
+    width: 371px;
+    margin: 50px auto 0; }
