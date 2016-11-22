@@ -116,4 +116,25 @@ footer {
   footer .footer-logo {
     height: 145px;
     width: 371px;
-    margin: 50px auto 0; }
+    margin: 50px auto 25px; }
+
+.ft-bloks {
+  display: inline-block;
+  height: 200px;
+  width: 240px;
+  overflow: hidden;
+  text-align: center; }
+  .ft-bloks div {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px; }
+    .ft-bloks div i {
+      display: inline-block;
+      font-size: 3em;
+      color: #A2CEF2; }
+  .ft-bloks span {
+    font-size: 1.5em;
+    color: #ffffff; }
+
+.ft-links a {
+  display: inline-block; }
