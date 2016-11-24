@@ -134,10 +134,17 @@
 					</div>
 					<span>Toronto, Mississauga, <br>Markham, Hamilton, <br>Richmond Hill, Vaughan, <br>Oakville, Burlington</span>
 				</div>
-				<div class="ft-name"><input type="text" placeholder="Name"></div>
-				<div class="ft-mail"><input type="text" placeholder="EMail"></div>
-				<div class="ft-subj"><input type="text" placeholder="Subject"></div>
-				<div class="ft-message"><textarea type="text" placeholder="Your Message"></textarea></div>
+				<form action="">
+					<div class="ft-form-block ft-form-block-left">
+						<div class="ft-name ft-form"><input type="text" placeholder="Name" name="name"></div>
+						<div class="ft-mail ft-form"><input type="text" placeholder="EMail" name="mail"></div>
+						<div class="ft-subj ft-form"><input type="text" placeholder="Subject" name="subject"></div>
+					</div>
+					<div class="ft-form-block ft-form-block-right">
+						<div class="ft-message"><textarea placeholder="Your Message" name="message"></textarea></div>
+						<button class="button">get the job done</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</footer>
