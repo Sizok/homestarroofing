@@ -12,7 +12,6 @@ section
   position: relative
 nav
   z-index: 1000
-  overflow: hidden
   height: 70px
   width: 100%
   background-color: #fff
@@ -20,34 +19,47 @@ nav
   .container
     div
       display: inline-block
-.navbar
-  text-decoration: none
-  list-style: none
-  padding: 0
-  margin: 25px 0
-  li
-    display: inline-block
-    text-transform: uppercase
-    margin: 0 5px
-    a
-      text-decoration: none
-      color: #000
-      font-weight: 400
-    a:hover
-      color: $SecondColor
-      cursor: default
-.menu
+#navigation
   height: 70px
+  margin: 0 100px
   overflow: hidden
-  margin: 0 110px
+  ul
+    //text-decoration: none
+    //list-style: none
+    //padding: 0
+    //margin: 25px 0
+    li
+      display: inline-block
+      text-transform: uppercase
+      position: relative
+      a
+        line-height: 70px
+        padding: 0 5px
+        text-decoration: none
+        color: #000
+        font-weight: 400
+        height: 70px
+      a:hover
+        color: $SecondColor
+        cursor: default
+#navigation .dropdown-menu
+  position: absolute
+  top: 100%
+  display: none
+  width: 150px
+  li
+    width: 100%
+#navigation li:hover .dropdown-menu
+  display: block
+  z-index: 50
 .logo
   overflow: hidden
   width: 162px
   height: 63px
-  margin: 0 0 10px 0
+  margin-bottom: 10px
 .navbar-phone-number
   height: 70px
-  width: 150px
+  width: 160px
   overflow: hidden
   span
     display: block

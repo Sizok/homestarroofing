@@ -6,11 +6,11 @@ $(document).ready(function(){
 				'transform': 'translate(0%, ' + st / 6 + '%'
 			});
 			$('.main-text').css({
-				'transform': 'translate(0%, -' + st / 1.5 + '%'
+				'transform': 'translate(0%, -' + st / 1.3 + '%'
 			});
 		}
 	});
 	$(function() {
-		$(".rslides").responsiveSlides();
+		$('.rslides').responsiveSlides();
 	});
 });
